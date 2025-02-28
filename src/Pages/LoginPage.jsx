@@ -31,7 +31,7 @@ function LoginPage() {
           </Col>
           <Col xs={12} sm={12} md={3} lg={3} className="d-flex justify-content-end m-0 p-0">
             <div>
-              <img src="src/Image/geometric-image-logo-instagram-story.png" className="loginImage"/>
+              <img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756879/Food%20Order%20Website/eyqxjirzit2trvcv5sv4.png" className="loginImage"/>
             </div>
           </Col>
         </Row>

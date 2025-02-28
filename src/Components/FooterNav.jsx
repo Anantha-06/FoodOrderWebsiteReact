@@ -12,12 +12,12 @@ function FooterNav(){
     <Row>
         <Col className="my-4 d-flex justify-content-center" xs={12} sm={12} md={6} lg={4}>
     <div className="d-flex flex-column gap-3 ">
-            <img src='src/Image/bg1.png' className='footer-logimg'></img>
+            <img src='https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756873/Food%20Order%20Website/Byteeats%20Profile%20Logo.png' className='footer-logimg'></img>
             <p>© 2025 ByteEats. All Rights Reserverd</p>
         <div className="d-flex gap-3 m-0 p-0 flex-nowrap">
-            <img className="socialMedia-img" src="src/Image/facebook.png"/>
-            <img className="socialMedia-img" src="src/Image/instagram.png"/>
-            <img className="socialMedia-img" src="src/Image/twitter.png"/>
+            <img className="socialMedia-img" src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756874/Food%20Order%20Website/ja0asjyxu0ldj3in80ii.png"/>
+            <img className="socialMedia-img" src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756877/Food%20Order%20Website/odsfiubj3iktczwzv0r9.png"/>
+            <img className="socialMedia-img" src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756873/Food%20Order%20Website/twitter%20icon.png"/>
             </div>
         </div>
         </Col>
@@ -50,22 +50,22 @@ function FooterNav(){
     </Row>
     <div className="d-flex flex-row gap-lg-5 gap-md-2 gap-sm-1  flex-wrap justify-content-center">
         <div className="d-flex flex-row gap-2">
-        <img src="src/Image/phone-call.png" className="footericon"/>
+        <img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756873/Food%20Order%20Website/call%20icon.png" className="footericon"/>
         <p><a  className="text-decoration-none text-reset" href="tel:+4733378901">+91 8075146088</a></p>
         </div>
         <div className="d-flex flex-row gap-2">
-        <img src="src/Image/mail.png" className="footericon"/>
+        <img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756876/Food%20Order%20Website/rd8wg2muc25dmfdzp32z.png" className="footericon"/>
         <p><a className="text-decoration-none text-reset" href="mailto:manu06011998@gmail.com">byteeats@support.com</a></p>
         </div>
         <div className="d-flex flex-row gap-2">
-        <img src="src/Image/location.png" className="footericon"/>
+        <img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756875/Food%20Order%20Website/Location%20Icon.png" className="footericon"/>
         <p>Near Palayam, Thiruvananthapuram, Kerala
         695020</p>
         </div>
         <div className="d-flex flex-row gap-4">
     <p className="fs-5 fw-bold">Download App On</p>
-    <a href="#"><img src="src/Image/app.png" className="socialMedia-img"/></a>
-    <a href="#"><img src="src/Image/android.png" className="socialMedia-img"/></a>
+    <a href="#"><img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756873/Food%20Order%20Website/u73vggn7vjp072jznxgw.png" className="socialMedia-img"/></a>
+    <a href="#"><img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756873/Food%20Order%20Website/aw2fe2fhcfsamnsxbkn3.png" className="socialMedia-img"/></a>
     </div>
     </div>
     </Container>

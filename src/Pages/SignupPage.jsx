@@ -34,8 +34,9 @@ function SignUpPage() {
           </Col>
           <Col xs={12} sm={12} md={3} lg={3} className="d-flex justify-content-end m-0 p-0">
             <div>
-              <img src="src/Image/clean-grid-whatsapp-story.png" className="loginImage"/>
+              <img src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756875/Food%20Order%20Website/hn0jwlxetvu0rf2tskkt.png" className="loginImage"/>
             </div>
+            
           </Col>
         </Row>
       </Container>
