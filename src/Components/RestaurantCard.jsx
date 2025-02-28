@@ -1,22 +1,17 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import '../App.css'
 
-function RestaurantCard() {
+function RestaurantCard(props) {
   return (
-    <div>
-        <div className='text-center my-5 fs-1 fw-bold'>Restaurants</div>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className='d-flex text-center border border-0  rounded-5 my-4 shadow-lg p-3 mb-5 bg-body-tertiary rounded'>
+      <a href='#' className='text-decoration-none text-reset '>
+      <Card.Img variant="top" src={props.image} className='restaurantCard-image ' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title className='text-center fw-bold'>{props.title}</Card.Title>
+        <Card.Text name="restaturant-status" className='text-center'>Open</Card.Text>
       </Card.Body>
+      </a>
     </Card>
-    </div>
   );
 }
 

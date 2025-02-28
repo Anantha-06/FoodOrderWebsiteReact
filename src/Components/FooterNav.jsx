@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../App.css'
 
-function Footer(){
+function FooterNav(){
     return(
 <Container fluid className="bg-warning">
     <Row>
@@ -73,4 +73,4 @@ function Footer(){
     )
 }
 
-export default Footer
+export default FooterNav

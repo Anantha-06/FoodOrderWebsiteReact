@@ -36,3 +36,24 @@ height: 40px;}
     height: 290px;
 }
     
+.restaurantCard-image{
+    width: 300px;
+    height: 300px;
+}
+
+.loginImage{
+    height: 970px;
+    width: 550px;
+}
+
+.inputBox-width{
+    width: 350px;
+}
+
+.loginBackground{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.signup-Background{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
