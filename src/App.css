@@ -57,3 +57,16 @@ height: 40px;}
 .signup-Background{
     background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
+
+.restaurant-image{
+    width: 250px;
+    height: 250px;
+}
+
+.menuItemimage{
+    width: 190px;
+    height: 190px;
+}
+.secondHEader{
+    text-shadow: 5px 2px 5px #ffc400;
+}
