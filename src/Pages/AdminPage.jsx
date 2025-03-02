@@ -4,27 +4,24 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "../App.css";
 
-function SignUpPage() {
+function LoginPage() {
   return (
     <>
-      <Container fluid className="signup-Background">
+      <Container fluid className="loginBackground">
         <Row>
           <Col
             xs={12}
             sm={12}
             md={9}
             lg={9}
-            className="d-flex flex-column justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center"
           >
             <Card className="d-flex text-center border border-0  shadow-lg p-3 mb-5 bg-body-tertiary rounded-3">
               <div>
                 <div>
-                  <p className="fs-4 fw-bold">SIGNUP</p>
+                  <p className="fs-4 fw-bold">ADMIN LOGIN</p>
                 </div>
                 <Form className="inputBox-width">
-                  <Form.Group className="mb-3" controlId="">
-                    <Form.Control type="text" placeholder="Enter Your Name" />
-                  </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control type="email" placeholder="Enter email" />
                   </Form.Group>
@@ -41,7 +38,6 @@ function SignUpPage() {
                 </Form>
               </div>
             </Card>
-            <p className="fs-6">By signing up, you agree to our Terms of Service and Privacy Policy.</p>
           </Col>
           <Col
             xs={12}
@@ -52,7 +48,7 @@ function SignUpPage() {
           >
             <div>
               <img
-                src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740756875/Food%20Order%20Website/hn0jwlxetvu0rf2tskkt.png"
+                src="https://res.cloudinary.com/dzmymp0yf/image/upload/v1740883119/Food%20Order%20Website/gtqxturrfthvupa4vxjw.webp"
                 className="loginImage"
               />
             </div>
@@ -62,4 +58,5 @@ function SignUpPage() {
     </>
   );
 }
-export default SignUpPage;
+
+export default LoginPage;

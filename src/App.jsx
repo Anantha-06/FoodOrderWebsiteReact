@@ -1,20 +1,16 @@
-import FooterNav from "./Components/FooterNav"
-import HeaderNav from "./Components/HeaderNav"
-import Homepage from "./Pages/Homepage"
-import LoginPage from "./Pages/LoginPage"
-import SignUpPage from "./Pages/SignupPage"
-
-
-
+import FooterNav from "./Components/FooterNav.jsx"
+import HeaderNav from "./Components/HeaderNav.jsx"
+import AllORderPage from "./Pages/AllORderPage.jsx"
+import ProfilePage from "./Pages/ProfilePage.jsx"
+import AdminPage from "./Pages/AdminPage.jsx"
+import AdminDasboard from "./Pages/AdminDashboard.jsx"
 
 
 function App() {
 
   return (
     <>
-
-<SignUpPage/>
-
+    <AdminDasboard/>
     </>
   )
 }
