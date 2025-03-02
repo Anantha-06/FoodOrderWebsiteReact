@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "../App.css";
 
-function LoginPage() {
+function AdminLoginPage() {
   return (
     <>
       <Container fluid className="loginBackground">
@@ -59,4 +59,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default AdminLoginPage;
